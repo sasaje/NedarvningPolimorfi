@@ -23,6 +23,10 @@ public class Main {
         p.holdbarhed = new Date(1608768000);
         p.freeze();
 
+        Corn c = new Corn();
+        c.stykpris = 10;
+        c.holdbarhed = new Date(1608768000);
+        c.cannedType = CannedType.VEGETABLES;
     }
 
 }

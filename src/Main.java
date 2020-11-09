@@ -27,15 +27,29 @@ public class Main {
         c.stykpris = 10;
         c.holdbarhed = new Date(1608768000);
         c.cannedType = CannedType.VEGETABLES;
+        c.storeAtRoomTemperature();
+
+        Tulips tulips = new Tulips();
+        tulips.stykpris = 25;
+        tulips.numberOfFlowersInABouquet = 20;
+        tulips.wither();
+
+        Roses roses = new Roses();
+        roses.stykpris = 50;
+        roses.numberOfFlowersInABouquet = 7;
+        roses.water();
 
         Beans blackBeans = new Beans();
+        blackBeans.stykpris = 12;
+        blackBeans.holdbarhed = new Date(1608768000);
         blackBeans.freeze();
 
         Beans kidneyBeans = new Beans();
+        kidneyBeans.holdbarhed = new Date(1608768000);
         kidneyBeans.storeAtRoomTemperature();
 
         Beans verticot = new Beans();
-        verticot.freeze();
-    }
+        verticot.holdbarhed = new Date(1608768000);
+        verticot.freeze();    }
 
 }

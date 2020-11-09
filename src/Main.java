@@ -27,6 +27,15 @@ public class Main {
         c.stykpris = 10;
         c.holdbarhed = new Date(1608768000);
         c.cannedType = CannedType.VEGETABLES;
+
+        Beans blackBeans = new Beans();
+        blackBeans.freeze();
+
+        Beans kidneyBeans = new Beans();
+        kidneyBeans.storeAtRoomTemperature();
+
+        Beans verticot = new Beans();
+        verticot.freeze();
     }
 
 }

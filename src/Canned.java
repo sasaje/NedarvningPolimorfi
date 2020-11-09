@@ -8,4 +8,8 @@
 
 public class Canned extends Varer {
     CannedType cannedType = CannedType.VEGETABLES;
+
+    void storeAtRoomTemperature() {
+        System.out.println("Opbevar ved stuetemperatur");
+    }
 }

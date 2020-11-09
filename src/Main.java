@@ -17,39 +17,45 @@ public class Main {
         a.smidUd();
         a.moden = true;
         a.coolDown();
+        a.storage = Storage.ROOMTEMPERATURE;
 
         Peas p = new Peas();
         p.stykpris = 0.1;
         p.holdbarhed = new Date(1608768000);
         p.freeze();
+        p.storage = Storage.FREEZER;
 
         Corn c = new Corn();
         c.stykpris = 10;
         c.holdbarhed = new Date(1608768000);
         c.cannedType = CannedType.VEGETABLES;
-        c.storeAtRoomTemperature();
+        c.storage = Storage.ROOMTEMPERATURE;
 
         Tulips tulips = new Tulips();
         tulips.stykpris = 25;
         tulips.numberOfFlowersInABouquet = 20;
         tulips.wither();
+        tulips.storage = Storage.ROOMTEMPERATURE;
 
         Roses roses = new Roses();
         roses.stykpris = 50;
         roses.numberOfFlowersInABouquet = 7;
         roses.water();
+        roses.storage = Storage.ROOMTEMPERATURE;
 
         Beans blackBeans = new Beans();
         blackBeans.stykpris = 12;
         blackBeans.holdbarhed = new Date(1608768000);
-        blackBeans.freeze();
+        blackBeans.cannedType = CannedType.VEGETABLES;
+        blackBeans.storage = Storage.ROOMTEMPERATURE;
 
         Beans kidneyBeans = new Beans();
         kidneyBeans.holdbarhed = new Date(1608768000);
-        kidneyBeans.storeAtRoomTemperature();
+        kidneyBeans.cannedType = CannedType.VEGETABLES;
+        kidneyBeans.storage = Storage.ROOMTEMPERATURE;
 
-        Beans verticot = new Beans();
-        verticot.holdbarhed = new Date(1608768000);
-        verticot.freeze();    }
-
+        Beans greenBeans = new Beans();
+        greenBeans.holdbarhed = new Date(1608768000);
+        greenBeans.storage = Storage.FREEZER;
+    }
 }

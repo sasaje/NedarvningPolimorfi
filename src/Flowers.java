@@ -6,7 +6,7 @@
  *
  */
 
-public class Flowers extends Varer {
+public class Flowers extends Vare {
 
     int numberOfFlowersInABouquet;
 

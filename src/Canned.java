@@ -6,7 +6,7 @@
  *
  */
 
-public class Canned extends Varer {
+public class Canned extends Vare {
     CannedType cannedType = CannedType.VEGETABLES;
 
     void storeAtRoomTemperature() {

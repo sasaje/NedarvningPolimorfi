@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="171.99999999999997" y="204.0">Canned</node>
+    <node x="442.0" y="215.5">Grønsag</node>
+    <node x="592.0" y="193.0">Flowers</node>
+    <node x="732.0" y="376.0">Roses</node>
+    <node x="315.5" y="0.0">Vare</node>
+    <node x="617.0" y="376.0">Tulips</node>
+    <node x="467.0" y="376.0">Peas</node>
+    <node x="0.0" y="215.5">Frugt</node>
+    <node x="308.75" y="376.0">Corn</node>
+    <node x="0.0" y="673.0">VareLager</node>
+    <node x="247.0" y="485.0">CannedType</node>
+    <node x="201.74999999999997" y="376.0">Beans</node>
+    <node x="2.5" y="342.0">Apple</node>
+    <node x="0.0" y="485.0">Storage</node>
+    <node x="523.0" y="485.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Canned" target="Vare">
+      <point x="0.0" y="-38.5" />
+      <point x="297.0" y="173.0" />
+      <point x="380.375" y="173.0" />
+      <point x="-21.625" y="71.5" />
+    </edge>
+    <edge source="Frugt" target="Vare">
+      <point x="0.0" y="-27.0" />
+      <point x="76.0" y="163.0" />
+      <point x="337.125" y="163.0" />
+      <point x="-64.875" y="71.5" />
+    </edge>
+    <edge source="Flowers" target="Vare">
+      <point x="0.0" y="-49.5" />
+      <point x="720.0" y="163.0" />
+      <point x="466.875" y="163.0" />
+      <point x="64.875" y="71.5" />
+    </edge>
+    <edge source="Peas" target="Grønsag">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Apple" target="Frugt">
+      <point x="0.0" y="-49.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Corn" target="Canned">
+      <point x="0.0" y="-15.0" />
+      <point x="348.75" y="317.0" />
+      <point x="359.5" y="317.0" />
+      <point x="62.5" y="38.5" />
+    </edge>
+    <edge source="Roses" target="Flowers">
+      <point x="0.0" y="-15.0" />
+      <point x="775.5" y="317.0" />
+      <point x="784.0" y="317.0" />
+      <point x="64.0" y="49.5" />
+    </edge>
+    <edge source="Beans" target="Canned">
+      <point x="0.0" y="-15.0" />
+      <point x="245.24999999999997" y="317.0" />
+      <point x="234.49999999999997" y="317.0" />
+      <point x="-62.5" y="38.5" />
+    </edge>
+    <edge source="Grønsag" target="Vare">
+      <point x="2.8421709430404007E-14" y="-27.0" />
+      <point x="507.0" y="173.0" />
+      <point x="423.625" y="173.0" />
+      <point x="21.625" y="71.5" />
+    </edge>
+    <edge source="Tulips" target="Flowers">
+      <point x="0.0" y="-15.0" />
+      <point x="664.5" y="317.0" />
+      <point x="656.0" y="317.0" />
+      <point x="-64.0" y="49.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="343.5" y="357.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

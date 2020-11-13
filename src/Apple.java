@@ -13,6 +13,4 @@ public class Apple extends Frugt {
     String type = "spiseæble";
     boolean moden = false;
 
-
-
 }
